@@ -1,7 +1,8 @@
 package com.qwy.designpattern.observerdesignpattern.template
 
-import android.os.Message
-
+/**
+ * 定义被观察者接口
+ */
 interface Observer {
     fun update(message: Message)
 }
